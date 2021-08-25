@@ -19,6 +19,9 @@ COMMON_PATH := device/samsung/universal9810-common
 # Include
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
+# Charger
+WITH_LINEAGE_CHARGER := false
+
 # Audio
 TARGET_EXCLUDES_AUDIOFX := true
 USE_XML_AUDIO_POLICY_CONF := 1
